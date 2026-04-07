@@ -60,10 +60,11 @@ if st.sidebar.button("开始预测"):
         cellulose, hemicellulose, lignin,
         reaction_time, heating_rate, feed_rate, n2_flow, temperature
     ]], columns=[
-        '水分/wt%-ar','灰分/wt%-dry','挥发分/wt%-dry','固定碳/wt%-dry',
-        'C/wt%-dry','H/wt%-dry','O/wt%-dry','N/wt%-dry','S/wt%-dry','HHVMilne MJ/kg-dry',
-        '纤维素/wt%-dry','半纤维素/wt%-dry','褐色素/wt%-dry',
-        '反应时间(min)','加热速率(°C/min)','进料速率(g/min)','氮气流量(L/min)','热解温度(°C)'
+        '水分/wt%-ar', '灰分/wt%-dry', '挥发分/wt%-dry', '固定碳/wt%-dry',
+        'C/wt%-dry', 'H/wt%-dry', 'O/wt%-dry', 'N/wt%-dry', 'S/wt%-dry',
+        '纤维素/wt%-dry', '半纤维素/wt%-dry', '褐色素/wt%-dry',
+        'HHVMilne MJ/kg-dry', '反应时间（min）', '加热速率(°C/min)',
+        '进料速率(g/min)', '氮气流量（L/min）', '热解温度(°C)',
     ])
 
     # 特征工程
